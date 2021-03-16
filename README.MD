@@ -16,7 +16,7 @@ Plug 'oddek/jsonval.vim'
 
 | Command           | List                                                                    |
 | ---               | ---                                                                     |
-| `:jsonval`        | Validate JSON                                                           |
+| `:Jsonval`        | Validate JSON                                                           |
 
 
 
