@@ -1,4 +1,4 @@
-# texwc
+# jsonval.vim
 
 A Vim plugin for easily validating a JSON file.
 
