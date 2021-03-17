@@ -10,9 +10,8 @@ let b:loaded_jsonval = 1
 
 if !exists("*s:jsonval")
   function s:Jsonval()
-    let s:filename = expand("%")
-	let s:cmd = "cat " . s:filename . " | jq -e >> /dev/null"
-	" let s:result =
+	let s:buff = join(getline(1, line('$')), "")
+	let s:cmd = "echo " . shellescape(s:buff)  . " | jq -e >> /dev/null"
 	if system(s:cmd) == ''
 		echo "Valid JSON"
 	else
