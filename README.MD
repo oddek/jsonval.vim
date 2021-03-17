@@ -4,7 +4,7 @@ A Vim plugin for easily validating a JSON file.
 
 ### Dependencies
 
-Utilizes the [jq](https://stedolan.github.io/jq/) JSON prosessor which is usually included in every Linux distribution.
+Utilizes the [jq](https://stedolan.github.io/jq/) JSON prosessor which can be installed with most package managers.
 
 ### Installation 
 Using [vim-plug](https://github.com/junegunn/vim-plug)
